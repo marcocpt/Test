@@ -19,6 +19,7 @@
 		DA3177301DD0BB840056D92E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3177181DD0BB840056D92E /* UIKit.framework */; };
 		DA3177381DD0BB840056D92E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3177361DD0BB840056D92E /* InfoPlist.strings */; };
 		DA31773A1DD0BB840056D92E /* TestSourceControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3177391DD0BB840056D92E /* TestSourceControlTests.m */; };
+		DA3177451DD0BDCF0056D92E /* WGDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3177441DD0BDCF0056D92E /* WGDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		DA3177351DD0BB840056D92E /* TestSourceControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSourceControlTests-Info.plist"; sourceTree = "<group>"; };
 		DA3177371DD0BB840056D92E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA3177391DD0BB840056D92E /* TestSourceControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSourceControlTests.m; sourceTree = "<group>"; };
+		DA3177431DD0BDCE0056D92E /* WGDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGDViewController.h; sourceTree = "<group>"; };
+		DA3177441DD0BDCF0056D92E /* WGDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				DA3177231DD0BB840056D92E /* AppDelegate.h */,
 				DA3177241DD0BB840056D92E /* AppDelegate.m */,
+				DA3177431DD0BDCE0056D92E /* WGDViewController.h */,
+				DA3177441DD0BDCF0056D92E /* WGDViewController.m */,
 				DA3177261DD0BB840056D92E /* Images.xcassets */,
 				DA31771B1DD0BB840056D92E /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3177451DD0BDCF0056D92E /* WGDViewController.m in Sources */,
 				DA3177251DD0BB840056D92E /* AppDelegate.m in Sources */,
 				DA3177211DD0BB840056D92E /* main.m in Sources */,
 			);
